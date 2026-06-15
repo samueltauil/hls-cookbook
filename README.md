@@ -2,6 +2,8 @@
 
 An internal Microsoft cookbook that turns recipe issues into a printable book.
 
+[![Submit a recipe](https://img.shields.io/badge/%F0%9F%8D%B3%20Submit%20a%20recipe-2ea44f?style=for-the-badge)](https://github.com/samueltauil/hls-cookbook/issues/new?template=recipe.yml)
+
 ## What this is
 
 HLS Cookbook is an internal Microsoft project for collecting recipes from the
