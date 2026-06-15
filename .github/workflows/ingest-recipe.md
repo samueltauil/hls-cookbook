@@ -11,7 +11,7 @@ permissions:
 engine: claude
 network: defaults
 env:
-  ISSUE_JSON: ${{ runner.temp }}/issue.json
+  ISSUE_JSON: ${{ github.workspace }}/.runtime/issue.json
 steps:
   - name: Set up Python
     uses: actions/setup-python@v5
@@ -23,8 +23,9 @@ steps:
     id: issue_json
     env:
       ISSUE_BODY: ${{ github.event.issue.body }}
-      ISSUE_JSON: ${{ runner.temp }}/issue.json
+      ISSUE_JSON: ${{ github.workspace }}/.runtime/issue.json
     run: |
+      mkdir -p "$(dirname "$ISSUE_JSON")"
       python <<'PY'
       from __future__ import annotations
 
