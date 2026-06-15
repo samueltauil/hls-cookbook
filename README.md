@@ -3,6 +3,7 @@
 An internal Microsoft cookbook that turns recipe issues into a printable book.
 
 [![Submit a recipe](https://img.shields.io/badge/%F0%9F%8D%B3%20Submit%20a%20recipe-2ea44f?style=for-the-badge)](https://github.com/samueltauil/hls-cookbook/issues/new?template=recipe.yml)
+[![Download the cookbook (PDF)](https://img.shields.io/badge/%F0%9F%93%95%20Download%20the%20cookbook-PDF-blue?style=for-the-badge)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.pdf)
 
 ## What this is
 
