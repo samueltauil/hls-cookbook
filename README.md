@@ -25,10 +25,13 @@ and the cookbook PDF rebuilds from the merged recipe files.
 - [Architecture doc](./docs/architecture.md)
 - Latest cookbook downloads (rebuilt automatically from `main`):
   - [📕 PDF · English](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.pdf)
-  - [📗 PDF · Português (BR)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-pt-BR.pdf)
   - [📘 EPUB · English](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.epub)
-  - [📙 EPUB · Português (BR)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-pt-BR.epub)
   - [All builds](https://github.com/samueltauil/hls-cookbook/releases)
+
+> The build ships English only for now. The repo already has i18n
+> scaffolding (locale-suffixed YAMLs, e.g. `recipe.pt-BR.yaml`) but
+> translation/localization is on the roadmap and not part of the
+> automated release yet.
 
 ## Local development
 

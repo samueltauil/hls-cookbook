@@ -57,10 +57,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e .
 
-      - name: Build cookbook (en + pt-BR)
+      - name: Build cookbook (en)
         run: |
-          python -m book.build_book --edition "$EDITION" --locale en    --output dist/
-          python -m book.build_book --edition "$EDITION" --locale pt-BR --output dist/
+          python -m book.build_book --edition "$EDITION" --locale en --output dist/
 
       - name: Upload cookbook artifacts
         uses: actions/upload-artifact@v4
@@ -85,10 +84,11 @@ jobs:
             **Downloads:**
             - `hls-cookbook-${{ env.EDITION }}-en.pdf`
             - `hls-cookbook-${{ env.EDITION }}-en.epub`
-            - `hls-cookbook-${{ env.EDITION }}-pt-BR.pdf`
-            - `hls-cookbook-${{ env.EDITION }}-pt-BR.epub`
 
             Built from commit ${{ github.sha }}.
+
+            > Multi-locale (pt-BR, etc.) is on the roadmap; the i18n
+            > scaffolding is in place but only English ships today.
           prerelease: false
           make_latest: "true"
           files: |
