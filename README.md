@@ -23,7 +23,12 @@ and the cookbook PDF rebuilds from the merged recipe files.
 - [Contributing guide](./CONTRIBUTING.md)
 - [Recipe submission guide](./docs/recipe-submission-guide.md)
 - [Architecture doc](./docs/architecture.md)
-- [Latest cookbook PDF](https://github.com/samueltauil/hls-cookbook/releases)
+- Latest cookbook downloads (rebuilt automatically from `main`):
+  - [📕 PDF · English](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.pdf)
+  - [📗 PDF · Português (BR)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-pt-BR.pdf)
+  - [📘 EPUB · English](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.epub)
+  - [📙 EPUB · Português (BR)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-pt-BR.epub)
+  - [All builds](https://github.com/samueltauil/hls-cookbook/releases)
 
 ## Local development
 

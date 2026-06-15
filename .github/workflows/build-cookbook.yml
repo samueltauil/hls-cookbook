@@ -16,16 +16,8 @@ on:
         required: false
         default: preview
         type: string
-      locale:
-        description: Locale to render
-        required: false
-        default: en
-        type: choice
-        options:
-          - en
-          - pt-BR
       release:
-        description: Attach the PDF and EPUB to a GitHub Release
+        description: Attach the PDF and EPUB to a tagged GitHub Release
         required: false
         default: false
         type: boolean
@@ -37,6 +29,8 @@ jobs:
   build-cookbook:
     name: Build cookbook
     runs-on: ubuntu-latest
+    env:
+      EDITION: ${{ inputs.edition || 'preview' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -63,33 +57,57 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e .
 
-      - name: Build cookbook assets
-        run: >-
-          python -m book.build_book
-          --edition "${{ inputs.edition || 'preview' }}"
-          --locale "${{ inputs.locale || 'en' }}"
-          --output dist/
+      - name: Build cookbook (en + pt-BR)
+        run: |
+          python -m book.build_book --edition "$EDITION" --locale en    --output dist/
+          python -m book.build_book --edition "$EDITION" --locale pt-BR --output dist/
 
       - name: Upload cookbook artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: hls-cookbook-${{ inputs.edition || 'preview' }}-${{ inputs.locale || 'en' }}
+          name: hls-cookbook-${{ env.EDITION }}
           path: |
             dist/*.pdf
             dist/*.epub
           if-no-files-found: error
 
-      - name: Set release tag
+      - name: Publish rolling "latest" release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: cookbook-latest
+          name: HLS Cookbook (latest build)
+          body: |
+            Automatically rebuilt from `main` after every recipe or book change.
+            This release always tracks the latest content on `main` — the tag is
+            force-moved on every build, so direct download links stay stable.
+
+            **Downloads:**
+            - `hls-cookbook-${{ env.EDITION }}-en.pdf`
+            - `hls-cookbook-${{ env.EDITION }}-en.epub`
+            - `hls-cookbook-${{ env.EDITION }}-pt-BR.pdf`
+            - `hls-cookbook-${{ env.EDITION }}-pt-BR.epub`
+
+            Built from commit ${{ github.sha }}.
+          prerelease: false
+          make_latest: "true"
+          files: |
+            dist/*.pdf
+            dist/*.epub
+
+      - name: Set tagged-edition release tag
         if: inputs.release == true
         id: release-tag
-        run: echo "tag=cookbook-${{ inputs.edition }}-$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
+        run: echo "tag=cookbook-${EDITION}-$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
 
-      - name: Publish GitHub Release
+      - name: Publish tagged-edition release
         if: inputs.release == true
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release-tag.outputs.tag }}
-          name: HLS Cookbook ${{ inputs.edition }} (${{ inputs.locale }})
+          name: HLS Cookbook ${{ env.EDITION }} (${{ steps.release-tag.outputs.tag }})
+          make_latest: "false"
           files: |
             dist/*.pdf
             dist/*.epub
+
