@@ -4,20 +4,14 @@ description: Normalize recipe issue submissions into recipe YAML pull requests.
 on:
   issues:
     types: [opened, labeled]
-  labels: [recipe-submission]
+    names: [recipe-submission]
   roles: all
-if: ${{ contains(github.event.issue.labels.*.name, 'recipe-submission') }}
 permissions:
   contents: read
-  issues: write
 engine: claude
-strict: true
-network:
-  allowed: [defaults, github, python]
+network: defaults
 env:
   ISSUE_JSON: ${{ runner.temp }}/issue.json
-checkout:
-  fetch-depth: 1
 steps:
   - name: Set up Python
     uses: actions/setup-python@v5
@@ -67,7 +61,6 @@ steps:
               "cook minutes": "cook_min",
               "cook min": "cook_min",
               "rest / marinade minutes": "rest_min",
-              "cuisine": "cuisine",
               "course": "course",
               "dietary tags": "dietary_tags",
               "allergens": "allergens",
@@ -149,7 +142,6 @@ steps:
           "prep_min": value("prep_min"),
           "cook_min": value("cook_min"),
           "rest_min": value("rest_min"),
-          "cuisine": value("cuisine"),
           "course": value("course"),
           "dietary_tags": value("dietary_tags"),
           "allergens": value("allergens"),
@@ -187,7 +179,7 @@ safe-outputs:
 
 # Ingest recipe submission
 
-Read the normalized issue payload from `$ISSUE_JSON`. The triggering issue is #${{ github.event.issue.number }}: ${{ github.event.issue.html_url }}.
+Read the normalized issue payload from `$ISSUE_JSON`. The triggering issue is ${{ github.server_url }}/${{ github.repository }}/issues/${{ github.event.issue.number }}.
 
 If the `agreement` payload field is anything other than `true`, use `safe-outputs.add-comment` to post 'Please re-open the issue with the submitter agreement checkbox checked' and stop.
 

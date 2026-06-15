@@ -65,22 +65,6 @@ body:
       value: |
         ## Classification
   - type: dropdown
-    id: cuisine
-    attributes:
-      label: Cuisine
-      options:
-        - Filipino
-        - Brazilian
-        - American
-        - Italian
-        - Mexican
-        - Japanese
-        - Indian
-        - French
-        - Other
-    validations:
-      required: true
-  - type: dropdown
     id: course
     attributes:
       label: Course

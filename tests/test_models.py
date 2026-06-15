@@ -29,7 +29,6 @@ def _sample_recipe() -> Recipe:
         summary="Filipino braised chicken.",
         contributor=Contributor(id="user_alias", display_name="Sam Tauil"),
         classification=Classification(
-            cuisine="Filipino",
             course="main",
             dietary_tags=["dairy-free"],
             difficulty="easy",

@@ -10,7 +10,6 @@
       "display_name": "Ana Reyes"
     },
     "classification": {
-      "cuisine": "Filipino",
       "course": "main",
       "dietary_tags": ["gluten-free", "dairy-free"],
       "difficulty": "easy",
@@ -127,7 +126,6 @@
       "display_name": "Sam Tauil"
     },
     "classification": {
-      "cuisine": "Brazilian",
       "course": "appetizer",
       "dietary_tags": ["gluten-free", "vegetarian"],
       "difficulty": "medium",
@@ -230,7 +228,6 @@
       "display_name": "Mira Chen"
     },
     "classification": {
-      "cuisine": "Italian-American",
       "course": "side",
       "dietary_tags": ["vegetarian"],
       "difficulty": "easy",
@@ -331,7 +328,6 @@
       "display_name": "Omar Khan"
     },
     "classification": {
-      "cuisine": "North African-inspired",
       "course": "side",
       "dietary_tags": ["vegetarian"],
       "difficulty": "easy",
@@ -423,7 +419,6 @@
       "display_name": "Lena Martin"
     },
     "classification": {
-      "cuisine": "Mediterranean-inspired",
       "course": "dessert",
       "dietary_tags": ["vegetarian"],
       "difficulty": "easy",
@@ -525,7 +520,6 @@
       "display_name": "Nisha Patel"
     },
     "classification": {
-      "cuisine": "American",
       "course": "drink",
       "dietary_tags": ["vegan", "gluten-free"],
       "difficulty": "easy",

@@ -18,7 +18,6 @@ def test_normalize_issue_payload_builds_draft_recipe_with_nutrition(tmp_path: Pa
         "yield_servings": 2,
         "prep_min": 5,
         "cook_min": 0,
-        "cuisine": "Test",
         "course": "main",
         "dietary_tags": "vegan, pantry",
         "difficulty": "easy",
@@ -51,7 +50,6 @@ def test_normalize_supports_ingredient_sections(tmp_path: Path) -> None:
     payload: dict[str, object] = {
         "title": "Sectioned Recipe",
         "yield_servings": 1,
-        "cuisine": "Test",
         "course": "main",
         "difficulty": "easy",
         "ingredients": ("## Marinade\n50 g flour\n## Topping\n20 g flour\n"),
@@ -69,7 +67,6 @@ def test_normalize_splits_ingredient_notes(tmp_path: Path) -> None:
     payload: dict[str, object] = {
         "title": "Noted Recipe",
         "yield_servings": 1,
-        "cuisine": "Test",
         "course": "main",
         "difficulty": "easy",
         "ingredients": "100 g flour, sifted",
@@ -94,7 +91,6 @@ def test_normalize_captures_extended_metadata(tmp_path: Path) -> None:
         "prep_min": 10,
         "cook_min": 20,
         "rest_min": 30,
-        "cuisine": "Test",
         "course": "main",
         "dietary_tags": "vegetarian",
         "allergens": "gluten",
@@ -136,7 +132,6 @@ def test_write_recipe_yaml_uses_locale_suffix_for_non_default(tmp_path: Path) ->
     payload: dict[str, object] = {
         "title": "Pão Simples",
         "yield_servings": 1,
-        "cuisine": "Brazilian",
         "course": "side",
         "difficulty": "easy",
         "ingredients": "100 g flour",

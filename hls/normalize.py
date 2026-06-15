@@ -12,7 +12,6 @@ Expected issue JSON shape (all fields optional except marked **required**)::
       "prep_min": 15,
       "cook_min": 45,
       "rest_min": 30,
-      "cuisine": "Filipino",                              # required
       "course": "main",                                   # required
       "dietary_tags": "dairy-free, gluten-free",
       "allergens": ["soy"],
@@ -94,7 +93,6 @@ def normalize_issue_payload(payload: dict[str, object], lookup: YamlIngredientLo
         summary=summary,
         contributor=_contributor(payload.get("contributor")),
         classification=Classification(
-            cuisine=_string_value(payload.get("cuisine")),
             course=_string_value(payload.get("course"), default="main"),
             dietary_tags=_csv_list(payload.get("dietary_tags")),
             allergens=_csv_list(payload.get("allergens")),

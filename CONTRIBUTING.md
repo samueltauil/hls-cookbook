@@ -37,7 +37,7 @@ lives at `recipes/<slug>/recipe.yaml` and includes these top-level fields:
 | `status` | Review state: `draft`, `in_review`, `approved`, or `rejected`. |
 | `title` / `slug` / `summary` | Display name, directory-safe slug, and short description. |
 | `contributor` | Contributor id or GitHub handle plus display name. |
-| `classification` | Cuisine, course, dietary tags, difficulty, and occasions. |
+| `classification` | Course, dietary tags, difficulty, and occasions. |
 | `yield` | Servings and optional yield notes. |
 | `times` | Prep, cook, and total minutes. |
 | `ingredients` | Ingredient names, quantities, notes, and sections. |

@@ -28,8 +28,9 @@ If GitHub asks, sign in with your Microsoft account that has access to the repo.
 
 ### Classification
 
-- **Cuisine** (required), **Course** (required), **Difficulty** (required) — pick
-  the closest option. Maintainers can polish wording later.
+- **Course** (required) and **Difficulty** (required) — pick the closest option.
+  Maintainers can polish wording later. The form intentionally omits a "cuisine"
+  field; cuisine context, if relevant, belongs in the recipe summary or notes.
 - **Dietary tags** — comma-separated tags such as `dairy-free, gluten-free`.
 - **Allergens** — checkboxes for the major eight: gluten, dairy, eggs, nuts, soy,
   shellfish, sesame, and fish.

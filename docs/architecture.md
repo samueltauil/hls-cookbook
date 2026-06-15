@@ -92,7 +92,7 @@ Top-level fields:
 | `status` | enum | `draft`, `in_review`, `approved`, or `rejected`. |
 | `contributor` | object | `id`/GitHub handle and `display_name`. |
 | `source` | object | Optional attribution and URL for adapted recipes. |
-| `classification` | object | Cuisine, course, dietary tags, allergens, occasion, keywords, and difficulty. |
+| `classification` | object | Course, dietary tags, allergens, occasion, keywords, and difficulty. |
 | `yield` | object | `servings` and optional `notes`. |
 | `times` | object | `prep_min`, `cook_min`, `rest_min`, and `total_min`. |
 | `ingredients` | list | Name, quantity, notes, and section for each ingredient. |
@@ -124,7 +124,6 @@ status: approved
 contributor: { id: samueltauil, display_name: Sam Tauil }
 source: { attribution: "Adapted from Sam's family recipe", url: "" }
 classification:
-  cuisine: Filipino
   course: main
   dietary_tags: [dairy-free, gluten-free]
   allergens: [soy]

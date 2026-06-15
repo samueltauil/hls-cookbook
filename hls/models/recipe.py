@@ -47,7 +47,6 @@ class Contributor(BaseModel):
 class Classification(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    cuisine: str = ""
     course: str = "main"
     dietary_tags: list[str] = Field(default_factory=list)
     allergens: list[str] = Field(default_factory=list)

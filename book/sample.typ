@@ -12,7 +12,6 @@
 #recipe(
   title: [Chicken Adobo],
   contributor: [Ana Reyes],
-  cuisine: [Filipino],
   course: [Mains],
   dietary-tags: [gluten-free, dairy-free],
   prep-time: [15 min],

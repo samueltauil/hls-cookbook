@@ -53,7 +53,7 @@ def _recipe(ingredients: list[Ingredient], *, servings: int = 4) -> Recipe:
         status=RecipeStatus.draft,
         title="Test Recipe",
         slug="test-recipe",
-        classification=Classification(cuisine="Test"),
+        classification=Classification(),
         recipe_yield=Yield(servings=servings),
         times=Times(),
         ingredients=ingredients,

@@ -8,7 +8,6 @@ contributor:
   id: fictional-maria
   display_name: Maria Example
 classification:
-  cuisine: American
   course: appetizer
   dietary_tags:
   - vegetarian

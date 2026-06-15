@@ -8,7 +8,6 @@ contributor:
   id: fictional-jules
   display_name: Jules Example
 classification:
-  cuisine: American
   course: dessert
   dietary_tags:
   - vegetarian
