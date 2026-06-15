@@ -1,6 +1,6 @@
 # How to submit a recipe in 5 minutes
 
-This guide is for Microsoft employees who want to share a recipe in the HLS
+This guide is for anyone who wants to share a recipe in the HLS
 Cookbook. You do not need to clone the repo or write code. Write naturally; the
 agent turns your issue into recipe YAML and opens a pull request for review.
 
@@ -9,7 +9,7 @@ For the technical shape behind the form, see the [recipe schema](architecture.md
 ## Step 1 — Open the issue form
 
 Open the [Submit a recipe issue form](https://github.com/samueltauil/hls-cookbook/issues/new?template=recipe.yml).
-If GitHub asks, sign in with your Microsoft account that has access to the repo.
+If GitHub asks, sign in with your GitHub account that has access to the repo.
 
 ## Step 2 — Fill out the sections
 

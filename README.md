@@ -1,6 +1,6 @@
 # HLS Cookbook — Hot Lunch Society
 
-An internal Microsoft cookbook that turns recipe issues into a printable book.
+A community cookbook that turns recipe issues into a printable book.
 
 [![Submit a recipe](https://img.shields.io/badge/%F0%9F%8D%B3%20Submit%20a%20recipe-2ea44f?style=for-the-badge)](https://github.com/samueltauil/hls-cookbook/issues/new?template=recipe.yml)
 [![Download PDF](https://img.shields.io/badge/%F0%9F%93%95%20Download-PDF-blue?style=for-the-badge)](https://github.com/samueltauil/hls-cookbook/releases/download/cookbook-latest/hls-cookbook-preview-en.pdf)
@@ -8,7 +8,7 @@ An internal Microsoft cookbook that turns recipe issues into a printable book.
 
 ## What this is
 
-HLS Cookbook is an internal Microsoft project for collecting recipes from the
+HLS Cookbook is a project for collecting recipes from the
 Hot Lunch Society and publishing them as a printed cookbook automatically. Cooks
 submit recipes with a GitHub Issue Form, an agentic workflow turns each
 submission into versioned YAML, maintainers review the generated pull request,

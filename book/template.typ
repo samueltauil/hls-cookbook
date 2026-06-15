@@ -51,7 +51,7 @@
 
       #v(18pt)
       #text(size: 9pt, fill: rgb("#6b7280"))[
-        Internal Microsoft project. Recipes are provided by contributors for community use.
+        Community project. Recipes are provided by contributors for community use.
         Please verify allergens, dietary needs, and food-safety requirements before serving.
       ]
     ]
