@@ -246,7 +246,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Photos & locale
+        ## Photos
   - type: textarea
     id: photos
     attributes:
@@ -263,17 +263,6 @@ body:
       placeholder: Adobo over jasmine rice
     validations:
       required: false
-  - type: dropdown
-    id: locale
-    attributes:
-      label: Recipe language
-      description: If pt-BR, the recipe will be filed at `recipes/<slug>/recipe.pt-BR.yaml`.
-      options:
-        - en
-        - pt-BR
-      default: 0
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |

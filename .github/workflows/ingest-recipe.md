@@ -77,7 +77,6 @@ steps:
               "pairings & serving suggestions": "pairings",
               "photos": "photos",
               "hero photo caption": "hero_caption",
-              "recipe language": "locale",
               "submitter agreement": "agreement",
           }.items()
       }
@@ -158,7 +157,7 @@ steps:
           "notes": value("notes"),
           "photo_urls": unique_urls(photo_urls),
           "hero_caption": value("hero_caption"),
-          "locale": value("locale") or "en",
+          "locale": "en",
           "agreement": value("agreement") or "false",
       }
       source = {"attribution": value("source_attribution"), "url": value("source_url")}
@@ -188,7 +187,7 @@ Sanitized issue context, for reference only:
 
 ${{ steps.sanitized.outputs.text }}
 
-The `locale` field controls the output filename: `recipes/<slug>/recipe.yaml` for `en`, and `recipes/<slug>/recipe.<locale>.yaml` for other locales. `hls.normalize.write_recipe_yaml` handles this automatically; do not compute the recipe filename yourself.
+Recipes are stored as `recipes/<slug>/recipe.yaml` (English only for now). `hls.normalize.write_recipe_yaml` computes the path; do not compute the recipe filename yourself.
 
 Run:
 

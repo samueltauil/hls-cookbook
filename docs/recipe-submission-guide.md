@@ -89,13 +89,11 @@ If GitHub asks, sign in with your Microsoft account that has access to the repo.
 - **Pairings & serving suggestions** — sides, drinks, garnishes, or how you like to
   plate it.
 
-### Photos & locale
+### Photos
 
 - **Photos** — paste URLs or drag-and-drop images into the field. The agent
   commits them under `recipes/<slug>/photos/`.
 - **Hero photo caption** — caption for the first photo; it appears in the book.
-- **Recipe language** — choose `en` (default) or `pt-BR`. Choosing `pt-BR` files
-  the recipe at `recipes/<slug>/recipe.pt-BR.yaml`.
 
 ### Submitter agreement
 
@@ -106,8 +104,8 @@ If GitHub asks, sign in with your Microsoft account that has access to the repo.
 ## Step 3 — Submit and watch the PR
 
 Click **Submit new issue**. The agent reads the issue, normalizes the recipe,
-adds any photos, and opens a PR with `recipes/<slug>/recipe.yaml` or
-`recipes/<slug>/recipe.<locale>.yaml`. You will be tagged on the PR.
+adds any photos, and opens a PR with `recipes/<slug>/recipe.yaml`. You will be
+tagged on the PR.
 
 Watch for validation comments or maintainer questions. Maintainers review the
 YAML diff, adjust anything that needs a human touch, and merge when the recipe is
@@ -115,16 +113,13 @@ ready for a cookbook build.
 
 ## FAQ
 
-**Can I submit in Portuguese?**
+**Can I submit in another language?**
 
-Yes — choose `pt-BR` from the Recipe language dropdown. See
-[`recipes/pao-de-queijo/recipe.pt-BR.yaml`](../recipes/pao-de-queijo/recipe.pt-BR.yaml)
-for an example.
-
-**Can I submit a translation of an existing recipe?**
-
-Yes — open a new issue with the same recipe title and choose the other locale.
-Both files can coexist under the same `recipes/<slug>/` directory.
+Not yet through the issue form — recipes are submitted in English for now.
+Multi-locale submissions (including pt-BR) are on the roadmap; the repo already
+keeps i18n scaffolding (locale-suffixed YAML files like
+[`recipes/pao-de-queijo/recipe.pt-BR.yaml`](../recipes/pao-de-queijo/recipe.pt-BR.yaml))
+so the pipeline is ready when translations are wired back in.
 
 **Can I edit later?**
 
