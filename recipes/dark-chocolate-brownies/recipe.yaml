@@ -1,0 +1,166 @@
+id: rcp_01KTZENJZR8K2AJZ4ZM4Z3TFPF
+status: approved
+title: Dark Chocolate Brownies
+slug: dark-chocolate-brownies
+summary: Deep, fudgy cocoa brownies with crackly tops, chewy edges, and just enough
+  salt to make the chocolate pop.
+contributor:
+  id: fictional-jules
+  display_name: Jules Example
+classification:
+  cuisine: American
+  course: dessert
+  dietary_tags:
+  - vegetarian
+  allergens:
+  - dairy
+  - eggs
+  - gluten
+  keywords:
+  - bake-sale
+  - chocolate
+  - crowd-pleaser
+  - make-ahead
+  difficulty: easy
+  occasion:
+  - bake-sale
+yield:
+  servings: 16
+  notes: one 8-inch pan
+times:
+  prep_min: 15
+  cook_min: 30
+  rest_min: 60
+  total_min: 105
+ingredients:
+- name: unsalted butter
+  quantity:
+    metric:
+      value: '142'
+      unit: g
+    us:
+      value: '10'
+      unit: tbsp
+    as_entered: 10 tbsp unsalted butter
+  notes: melted
+  section: wet
+- name: granulated sugar
+  quantity:
+    metric:
+      value: '200'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 cup granulated sugar
+  notes: ''
+  section: dry
+- name: brown sugar
+  quantity:
+    metric:
+      value: '100'
+      unit: g
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 cup brown sugar
+  notes: packed
+  section: dry
+- name: large egg
+  quantity:
+    metric:
+      value: '100'
+      unit: g
+    us:
+      value: '2'
+      unit: count
+    as_entered: 2 large eggs
+  notes: ''
+  section: wet
+- name: vanilla extract
+  quantity:
+    metric:
+      value: '10'
+      unit: ml
+    us:
+      value: '2'
+      unit: tsp
+    as_entered: 2 tsp vanilla extract
+  notes: ''
+  section: wet
+- name: cocoa powder
+  quantity:
+    metric:
+      value: '65'
+      unit: g
+    us:
+      value: '0.75'
+      unit: cup
+    as_entered: 3/4 cup cocoa powder
+  notes: unsweetened
+  section: dry
+- name: all-purpose flour
+  quantity:
+    metric:
+      value: '95'
+      unit: g
+    us:
+      value: '0.75'
+      unit: cup
+    as_entered: 3/4 cup all-purpose flour
+  notes: ''
+  section: dry
+- name: kosher salt
+  quantity:
+    metric:
+      value: '3'
+      unit: g
+    us:
+      value: '0.5'
+      unit: tsp
+    as_entered: 1/2 tsp kosher salt
+  notes: ''
+  section: dry
+steps:
+- order: 1
+  text: Heat the oven to 350°F and line an 8-inch pan with parchment.
+- order: 2
+  text: Whisk melted butter with both sugars until glossy, then beat in eggs and vanilla.
+- order: 3
+  text: Fold in cocoa powder, flour, and salt just until no dry streaks remain.
+- order: 4
+  text: Bake until the edges are set and the center still looks slightly fudgy.
+- order: 5
+  text: Cool completely before slicing for the cleanest squares.
+photos:
+- blob_url: photos/hero.jpg
+  caption: Final dish
+  is_hero: true
+equipment:
+- 8×8 baking pan
+- Parchment paper
+- Whisk
+- Heatproof bowl
+- Rubber spatula
+tips: Pull the pan while the center still looks slightly fudgy; carryover heat finishes
+  the bake. Chill before slicing for extra-clean edges.
+storage: Keeps airtight at room temperature for 3 days or refrigerated for 1 week;
+  freeze slices up to 2 months.
+pairings: Serve with cold milk, coffee, or a scoop of vanilla ice cream.
+source: null
+locale: en
+nutrition_per_serving:
+  calories_kcal: '177.2'
+  protein_g: '2.3'
+  fat_g: '8.4'
+  carbs_g: '25.6'
+locales: {}
+review:
+  submitted_at: null
+  reviewer_id: null
+  review_notes: []
+book:
+  included_in_editions: []
+created_at: '2026-06-12T00:00:00Z'
+updated_at: '2026-06-13T03:49:04Z'
+_etag: null

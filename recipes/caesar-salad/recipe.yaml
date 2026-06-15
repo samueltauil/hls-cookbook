@@ -1,0 +1,175 @@
+id: rcp_01KTZENJZR8K2AJZ4ZM4Z3TFPE
+status: approved
+title: Caesar Salad
+slug: caesar-salad
+summary: A bright spinach Caesar with a lemony Dijon dressing, salty Parmesan, and
+  toasted crumbs for crunch in every bite.
+contributor:
+  id: fictional-maria
+  display_name: Maria Example
+classification:
+  cuisine: American
+  course: appetizer
+  dietary_tags:
+  - vegetarian
+  allergens:
+  - dairy
+  - eggs
+  - gluten
+  keywords:
+  - quick
+  - potluck
+  - vegetarian
+  - salad
+  difficulty: easy
+  occasion:
+  - potluck
+yield:
+  servings: 4
+  notes: ''
+times:
+  prep_min: 20
+  cook_min: 5
+  rest_min: 0
+  total_min: 25
+ingredients:
+- name: spinach
+  quantity:
+    metric:
+      value: '225'
+      unit: g
+    us:
+      value: '8'
+      unit: oz
+    as_entered: 8 oz spinach
+  notes: washed and dried
+  section: salad
+- name: bread crumbs
+  quantity:
+    metric:
+      value: '60'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 cup bread crumbs
+  notes: toasted
+  section: salad
+- name: parmesan cheese
+  quantity:
+    metric:
+      value: '45'
+      unit: g
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 cup parmesan
+  notes: shaved or grated
+  section: salad
+- name: olive oil
+  quantity:
+    metric:
+      value: '72'
+      unit: g
+    us:
+      value: '0.333'
+      unit: cup
+    as_entered: 1/3 cup olive oil
+  notes: ''
+  section: dressing
+- name: lemon juice
+  quantity:
+    metric:
+      value: '45'
+      unit: ml
+    us:
+      value: '3'
+      unit: tbsp
+    as_entered: 3 tbsp lemon juice
+  notes: fresh
+  section: dressing
+- name: dijon mustard
+  quantity:
+    metric:
+      value: '10'
+      unit: g
+    us:
+      value: '2'
+      unit: tsp
+    as_entered: 2 tsp dijon mustard
+  notes: ''
+  section: dressing
+- name: garlic
+  quantity:
+    metric:
+      value: '3'
+      unit: g
+    us:
+      value: '1'
+      unit: count
+    as_entered: 1 clove garlic
+  notes: grated
+  section: dressing
+- name: large egg
+  quantity:
+    metric:
+      value: '18'
+      unit: g
+    us:
+      value: '1'
+      unit: count
+    as_entered: 1 large egg yolk equivalent
+  notes: pasteurized, optional but classic
+  section: dressing
+- name: kosher salt
+  quantity:
+    metric:
+      value: null
+      unit: to_taste
+    us:
+      value: null
+      unit: to_taste
+    as_entered: to taste
+  notes: ''
+  section: dressing
+steps:
+- order: 1
+  text: Toast bread crumbs in a dry skillet until fragrant and golden.
+- order: 2
+  text: Whisk lemon juice, Dijon, garlic, egg, and salt, then slowly stream in olive
+    oil.
+- order: 3
+  text: Toss spinach with enough dressing to lightly coat.
+- order: 4
+  text: Finish with parmesan and toasted crumbs just before serving.
+photos:
+- blob_url: photos/hero.jpg
+  caption: Final dish
+  is_hero: true
+equipment:
+- Salad bowl
+- Small skillet
+- Whisk
+- Microplane
+tips: Toast the crumbs right before dressing the salad for the best crunch. Use pasteurized
+  egg yolk if serving guests who avoid raw egg.
+storage: Store dressing and greens separately up to 2 days; toss with crumbs just
+  before serving.
+pairings: Pair with grilled chicken, tomato soup, or a simple pasta supper.
+source: null
+locale: en
+nutrition_per_serving:
+  calories_kcal: '291.5'
+  protein_g: '8.7'
+  fat_g: '22.8'
+  carbs_g: '14.5'
+locales: {}
+review:
+  submitted_at: null
+  reviewer_id: null
+  review_notes: []
+book:
+  included_in_editions: []
+created_at: '2026-06-12T00:00:00Z'
+updated_at: '2026-06-13T03:49:04Z'
+_etag: null

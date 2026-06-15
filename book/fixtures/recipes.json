@@ -1,0 +1,609 @@
+[
+  {
+    "id": "rcp_01JADOB0CHICKEN",
+    "status": "approved",
+    "title": "Chicken Adobo",
+    "slug": "chicken-adobo",
+    "summary": "Filipino chicken braised in vinegar, soy sauce, garlic, and bay leaves until glossy and deeply savory.",
+    "contributor": {
+      "id": "areyes",
+      "display_name": "Ana Reyes"
+    },
+    "classification": {
+      "cuisine": "Filipino",
+      "course": "main",
+      "dietary_tags": ["gluten-free", "dairy-free"],
+      "difficulty": "easy",
+      "occasion": ["weeknight"]
+    },
+    "yield": {
+      "servings": 4,
+      "notes": ""
+    },
+    "times": {
+      "prep_min": 15,
+      "cook_min": 45,
+      "total_min": 60
+    },
+    "ingredients": [
+      {
+        "name": "bone-in chicken thighs",
+        "quantity": {
+          "metric": { "value": 900, "unit": "g" },
+          "us": { "value": 2, "unit": "lb" },
+          "as_entered": "2 lb"
+        },
+        "notes": "skin-on",
+        "section": "chicken"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": {
+          "metric": { "value": 120, "unit": "ml" },
+          "us": { "value": 0.5, "unit": "cup" },
+          "as_entered": "1/2 cup"
+        },
+        "notes": "",
+        "section": "chicken"
+      },
+      {
+        "name": "cane vinegar",
+        "quantity": {
+          "metric": { "value": 120, "unit": "ml" },
+          "us": { "value": 0.5, "unit": "cup" },
+          "as_entered": "1/2 cup"
+        },
+        "notes": "",
+        "section": "chicken"
+      },
+      {
+        "name": "garlic",
+        "quantity": {
+          "metric": { "value": 10, "unit": "cloves" },
+          "us": { "value": 10, "unit": "cloves" },
+          "as_entered": "10 cloves"
+        },
+        "notes": "smashed",
+        "section": "chicken"
+      },
+      {
+        "name": "bay leaves",
+        "quantity": {
+          "metric": { "value": 3, "unit": "" },
+          "us": { "value": 3, "unit": "" },
+          "as_entered": "3"
+        },
+        "notes": "",
+        "section": "chicken"
+      },
+      {
+        "name": "steamed jasmine rice",
+        "quantity": {
+          "metric": { "value": 720, "unit": "g" },
+          "us": { "value": 4, "unit": "cups" },
+          "as_entered": "4 cups"
+        },
+        "notes": "for serving",
+        "section": "to-serve"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Combine soy sauce, vinegar, garlic, bay leaves, and chicken in a wide pot. Marinate for 20 minutes." },
+      { "order": 2, "text": "Bring to a simmer, cover, and cook gently until the chicken is tender, about 30 minutes." },
+      { "order": 3, "text": "Uncover and simmer until the sauce reduces to a glossy glaze. Serve over rice." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 410,
+      "protein_g": 32,
+      "fat_g": 22,
+      "carbs_g": 14
+    },
+    "locales": {
+      "pt-BR": {
+        "title": "Frango Adobo",
+        "summary": "Frango filipino cozido em vinagre, shoyu, alho e louro até ficar brilhante e saboroso."
+      }
+    },
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  },
+  {
+    "id": "rcp_01JPQDQUEIJO",
+    "status": "approved",
+    "title": "Pão de Queijo",
+    "slug": "pao-de-queijo",
+    "summary": "Brazilian tapioca cheese rolls with a crisp shell and stretchy, tender center.",
+    "contributor": {
+      "id": "stauil",
+      "display_name": "Sam Tauil"
+    },
+    "classification": {
+      "cuisine": "Brazilian",
+      "course": "appetizer",
+      "dietary_tags": ["gluten-free", "vegetarian"],
+      "difficulty": "medium",
+      "occasion": ["snack"]
+    },
+    "yield": {
+      "servings": 8,
+      "notes": "about 24 rolls"
+    },
+    "times": {
+      "prep_min": 20,
+      "cook_min": 25,
+      "total_min": 45
+    },
+    "ingredients": [
+      {
+        "name": "tapioca starch",
+        "quantity": {
+          "metric": { "value": 300, "unit": "g" },
+          "us": { "value": 2.5, "unit": "cups" },
+          "as_entered": "2 1/2 cups"
+        },
+        "notes": "",
+        "section": "dough"
+      },
+      {
+        "name": "whole milk",
+        "quantity": {
+          "metric": { "value": 240, "unit": "ml" },
+          "us": { "value": 1, "unit": "cup" },
+          "as_entered": "1 cup"
+        },
+        "notes": "",
+        "section": "dough"
+      },
+      {
+        "name": "neutral oil",
+        "quantity": {
+          "metric": { "value": 60, "unit": "ml" },
+          "us": { "value": 0.25, "unit": "cup" },
+          "as_entered": "1/4 cup"
+        },
+        "notes": "",
+        "section": "dough"
+      },
+      {
+        "name": "eggs",
+        "quantity": {
+          "metric": { "value": 2, "unit": "" },
+          "us": { "value": 2, "unit": "" },
+          "as_entered": "2"
+        },
+        "notes": "large",
+        "section": "dough"
+      },
+      {
+        "name": "grated parmesan",
+        "quantity": {
+          "metric": { "value": 120, "unit": "g" },
+          "us": { "value": 1.25, "unit": "cups" },
+          "as_entered": "1 1/4 cups"
+        },
+        "notes": "",
+        "section": "dough"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Heat oven to 400°F / 205°C and line two baking sheets with parchment." },
+      { "order": 2, "text": "Bring milk, oil, and salt to a simmer, then pour over tapioca starch and mix until shaggy." },
+      { "order": 3, "text": "Beat in eggs one at a time, fold in cheese, and scoop into walnut-size mounds." },
+      { "order": 4, "text": "Bake until puffed and spotted golden, 20 to 25 minutes." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 245,
+      "protein_g": 7,
+      "fat_g": 12,
+      "carbs_g": 29
+    },
+    "locales": {},
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  },
+  {
+    "id": "rcp_01JCAESARSALAD",
+    "status": "approved",
+    "title": "Lemon Caesar Salad",
+    "slug": "lemon-caesar-salad",
+    "summary": "A bright Caesar with crisp romaine, garlicky lemon dressing, toasted crumbs, and shaved parmesan.",
+    "contributor": {
+      "id": "mchen",
+      "display_name": "Mira Chen"
+    },
+    "classification": {
+      "cuisine": "Italian-American",
+      "course": "side",
+      "dietary_tags": ["vegetarian"],
+      "difficulty": "easy",
+      "occasion": ["lunch"]
+    },
+    "yield": {
+      "servings": 6,
+      "notes": ""
+    },
+    "times": {
+      "prep_min": 20,
+      "cook_min": 5,
+      "total_min": 25
+    },
+    "ingredients": [
+      {
+        "name": "romaine hearts",
+        "quantity": {
+          "metric": { "value": 450, "unit": "g" },
+          "us": { "value": 3, "unit": "heads" },
+          "as_entered": "3 hearts"
+        },
+        "notes": "chopped",
+        "section": "salad"
+      },
+      {
+        "name": "panko breadcrumbs",
+        "quantity": {
+          "metric": { "value": 55, "unit": "g" },
+          "us": { "value": 1, "unit": "cup" },
+          "as_entered": "1 cup"
+        },
+        "notes": "toasted",
+        "section": "salad"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": {
+          "metric": { "value": 45, "unit": "ml" },
+          "us": { "value": 3, "unit": "tbsp" },
+          "as_entered": "3 tbsp"
+        },
+        "notes": "",
+        "section": "dressing"
+      },
+      {
+        "name": "olive oil",
+        "quantity": {
+          "metric": { "value": 80, "unit": "ml" },
+          "us": { "value": 0.33, "unit": "cup" },
+          "as_entered": "1/3 cup"
+        },
+        "notes": "",
+        "section": "dressing"
+      },
+      {
+        "name": "parmesan",
+        "quantity": {
+          "metric": { "value": 60, "unit": "g" },
+          "us": { "value": 0.75, "unit": "cup" },
+          "as_entered": "3/4 cup"
+        },
+        "notes": "shaved",
+        "section": "salad"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Whisk lemon juice, grated garlic, mustard, olive oil, and a handful of parmesan into a creamy dressing." },
+      { "order": 2, "text": "Toss romaine with dressing, toasted breadcrumbs, and shaved parmesan just before serving." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 180,
+      "protein_g": 6,
+      "fat_g": 13,
+      "carbs_g": 11
+    },
+    "locales": {},
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  },
+  {
+    "id": "rcp_01JCARROTSIDE",
+    "status": "approved",
+    "title": "Harissa Honey Carrots",
+    "slug": "harissa-honey-carrots",
+    "summary": "Roasted carrots lacquered with harissa, honey, lemon, and herbs.",
+    "contributor": {
+      "id": "okhan",
+      "display_name": "Omar Khan"
+    },
+    "classification": {
+      "cuisine": "North African-inspired",
+      "course": "side",
+      "dietary_tags": ["vegetarian"],
+      "difficulty": "easy",
+      "occasion": ["potluck"]
+    },
+    "yield": {
+      "servings": 4,
+      "notes": ""
+    },
+    "times": {
+      "prep_min": 10,
+      "cook_min": 25,
+      "total_min": 35
+    },
+    "ingredients": [
+      {
+        "name": "carrots",
+        "quantity": {
+          "metric": { "value": 700, "unit": "g" },
+          "us": { "value": 1.5, "unit": "lb" },
+          "as_entered": "1 1/2 lb"
+        },
+        "notes": "halved lengthwise",
+        "section": "main"
+      },
+      {
+        "name": "harissa paste",
+        "quantity": {
+          "metric": { "value": 30, "unit": "g" },
+          "us": { "value": 2, "unit": "tbsp" },
+          "as_entered": "2 tbsp"
+        },
+        "notes": "",
+        "section": "glaze"
+      },
+      {
+        "name": "honey",
+        "quantity": {
+          "metric": { "value": 42, "unit": "g" },
+          "us": { "value": 2, "unit": "tbsp" },
+          "as_entered": "2 tbsp"
+        },
+        "notes": "",
+        "section": "glaze"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": {
+          "metric": { "value": 15, "unit": "ml" },
+          "us": { "value": 1, "unit": "tbsp" },
+          "as_entered": "1 tbsp"
+        },
+        "notes": "",
+        "section": "glaze"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Roast carrots at 425°F / 220°C with olive oil and salt until browned and tender." },
+      { "order": 2, "text": "Warm harissa, honey, and lemon juice, then toss with the hot carrots." },
+      { "order": 3, "text": "Finish with herbs and serve warm." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 135,
+      "protein_g": 2,
+      "fat_g": 5,
+      "carbs_g": 24
+    },
+    "locales": {},
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  },
+  {
+    "id": "rcp_01JOLIVEOILCAKE",
+    "status": "approved",
+    "title": "Chocolate Olive Oil Cake",
+    "slug": "chocolate-olive-oil-cake",
+    "summary": "A plush cocoa cake with fruity olive oil, crackly top, and a tender crumb that keeps for days.",
+    "contributor": {
+      "id": "lmartin",
+      "display_name": "Lena Martin"
+    },
+    "classification": {
+      "cuisine": "Mediterranean-inspired",
+      "course": "dessert",
+      "dietary_tags": ["vegetarian"],
+      "difficulty": "easy",
+      "occasion": ["birthday"]
+    },
+    "yield": {
+      "servings": 10,
+      "notes": "one 9-inch cake"
+    },
+    "times": {
+      "prep_min": 20,
+      "cook_min": 40,
+      "total_min": 60
+    },
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "quantity": {
+          "metric": { "value": 190, "unit": "g" },
+          "us": { "value": 1.5, "unit": "cups" },
+          "as_entered": "1 1/2 cups"
+        },
+        "notes": "",
+        "section": "cake"
+      },
+      {
+        "name": "unsweetened cocoa powder",
+        "quantity": {
+          "metric": { "value": 65, "unit": "g" },
+          "us": { "value": 0.75, "unit": "cup" },
+          "as_entered": "3/4 cup"
+        },
+        "notes": "",
+        "section": "cake"
+      },
+      {
+        "name": "extra-virgin olive oil",
+        "quantity": {
+          "metric": { "value": 160, "unit": "ml" },
+          "us": { "value": 0.67, "unit": "cup" },
+          "as_entered": "2/3 cup"
+        },
+        "notes": "fruity",
+        "section": "cake"
+      },
+      {
+        "name": "sugar",
+        "quantity": {
+          "metric": { "value": 250, "unit": "g" },
+          "us": { "value": 1.25, "unit": "cups" },
+          "as_entered": "1 1/4 cups"
+        },
+        "notes": "",
+        "section": "cake"
+      },
+      {
+        "name": "eggs",
+        "quantity": {
+          "metric": { "value": 3, "unit": "" },
+          "us": { "value": 3, "unit": "" },
+          "as_entered": "3"
+        },
+        "notes": "large",
+        "section": "cake"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Heat oven to 350°F / 175°C. Grease and line a 9-inch cake pan." },
+      { "order": 2, "text": "Whisk dry ingredients in one bowl and eggs, sugar, olive oil, and coffee in another." },
+      { "order": 3, "text": "Combine, pour into the pan, and bake until a tester has moist crumbs, 35 to 40 minutes." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 330,
+      "protein_g": 5,
+      "fat_g": 17,
+      "carbs_g": 42
+    },
+    "locales": {},
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  },
+  {
+    "id": "rcp_01JCUCUMBERMINT",
+    "status": "approved",
+    "title": "Cucumber Mint Cooler",
+    "slug": "cucumber-mint-cooler",
+    "summary": "A sparkling cucumber, lime, and mint drink that feels like air conditioning in a glass.",
+    "contributor": {
+      "id": "npatel",
+      "display_name": "Nisha Patel"
+    },
+    "classification": {
+      "cuisine": "American",
+      "course": "drink",
+      "dietary_tags": ["vegan", "gluten-free"],
+      "difficulty": "easy",
+      "occasion": ["summer"]
+    },
+    "yield": {
+      "servings": 6,
+      "notes": ""
+    },
+    "times": {
+      "prep_min": 15,
+      "cook_min": 0,
+      "total_min": 15
+    },
+    "ingredients": [
+      {
+        "name": "English cucumber",
+        "quantity": {
+          "metric": { "value": 1, "unit": "" },
+          "us": { "value": 1, "unit": "" },
+          "as_entered": "1"
+        },
+        "notes": "thinly sliced",
+        "section": "drink"
+      },
+      {
+        "name": "fresh lime juice",
+        "quantity": {
+          "metric": { "value": 120, "unit": "ml" },
+          "us": { "value": 0.5, "unit": "cup" },
+          "as_entered": "1/2 cup"
+        },
+        "notes": "",
+        "section": "drink"
+      },
+      {
+        "name": "mint leaves",
+        "quantity": {
+          "metric": { "value": 20, "unit": "g" },
+          "us": { "value": 1, "unit": "cup" },
+          "as_entered": "1 cup"
+        },
+        "notes": "loosely packed",
+        "section": "drink"
+      },
+      {
+        "name": "sparkling water",
+        "quantity": {
+          "metric": { "value": 1.4, "unit": "l" },
+          "us": { "value": 6, "unit": "cups" },
+          "as_entered": "6 cups"
+        },
+        "notes": "cold",
+        "section": "drink"
+      }
+    ],
+    "steps": [
+      { "order": 1, "text": "Muddle cucumber, mint, lime juice, and sugar in a pitcher until fragrant." },
+      { "order": 2, "text": "Add ice and sparkling water, stir gently, and serve immediately." }
+    ],
+    "photos": [],
+    "nutrition_per_serving": {
+      "calories_kcal": 45,
+      "protein_g": 1,
+      "fat_g": 0,
+      "carbs_g": 11
+    },
+    "locales": {},
+    "review": {
+      "submitted_at": "2026-06-12T12:00:00Z",
+      "reviewer_id": "cookbook-review",
+      "review_notes": []
+    },
+    "book": {
+      "included_in_editions": ["preview", "2026-fall"]
+    },
+    "created_at": "2026-06-12T12:00:00Z",
+    "updated_at": "2026-06-12T12:00:00Z"
+  }
+]
+

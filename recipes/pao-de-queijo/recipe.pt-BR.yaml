@@ -1,0 +1,155 @@
+id: rcp_01KTZENJZR8K2AJZ4ZM4Z3TFPD
+status: approved
+title: Pão de Queijo
+slug: pao-de-queijo
+summary: Pãezinhos brasileiros de queijo, crocantes por fora, macios e elásticos por
+  dentro, com sabor marcante de parmesão e muçarela.
+contributor:
+  id: samueltauil
+  display_name: Sam Tauil
+classification:
+  cuisine: Brazilian
+  course: side
+  dietary_tags:
+  - gluten-free
+  - vegetarian
+  allergens:
+  - dairy
+  - eggs
+  keywords:
+  - gluten-free
+  - snack
+  - make-ahead
+  - Brazilian
+  difficulty: medium
+  occasion:
+  - snack
+yield:
+  servings: 8
+  notes: cerca de 24 pãezinhos pequenos
+times:
+  prep_min: 20
+  cook_min: 25
+  rest_min: 10
+  total_min: 55
+ingredients:
+- name: tapioca starch
+  quantity:
+    metric:
+      value: '250'
+      unit: g
+    us:
+      value: '2'
+      unit: cup
+    as_entered: 2 xícaras de polvilho doce
+  notes: ''
+  section: principal
+- name: whole milk
+  quantity:
+    metric:
+      value: '240'
+      unit: ml
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 xícara de leite integral
+  notes: ''
+  section: principal
+- name: vegetable oil
+  quantity:
+    metric:
+      value: '110'
+      unit: g
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 xícara de óleo vegetal
+  notes: ''
+  section: principal
+- name: large egg
+  quantity:
+    metric:
+      value: '100'
+      unit: g
+    us:
+      value: '2'
+      unit: count
+    as_entered: 2 ovos grandes
+  notes: em temperatura ambiente
+  section: principal
+- name: parmesan cheese
+  quantity:
+    metric:
+      value: '90'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 xícara de parmesão ralado
+  notes: ralado fino
+  section: principal
+- name: mozzarella cheese
+  quantity:
+    metric:
+      value: '110'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 xícara de muçarela ralada
+  notes: de baixa umidade, ralada
+  section: principal
+- name: kosher salt
+  quantity:
+    metric:
+      value: '6'
+      unit: g
+    us:
+      value: '1'
+      unit: tsp
+    as_entered: 1 colher de chá de sal kosher
+  notes: ''
+  section: principal
+steps:
+- order: 1
+  text: Aqueça o leite, o óleo e o sal até começar a soltar vapor; despeje sobre o
+    polvilho.
+- order: 2
+  text: Bata até a massa ficar lisa e fria o suficiente para tocar.
+- order: 3
+  text: Misture os ovos, um de cada vez, e depois incorpore os dois queijos.
+- order: 4
+  text: Modele porções em uma assadeira forrada e asse até crescerem e ficarem douradas.
+photos:
+- blob_url: photos/hero.jpg
+  caption: Prato finalizado
+  is_hero: true
+equipment:
+- Batedeira ou tigela resistente
+- Panela
+- Colher ou boleador de biscoito
+- Assadeira forrada
+tips: Use queijo ralado fino para incorporar melhor à massa. Se a massa estiver grudenta,
+  unte levemente a colher ou as mãos com óleo.
+storage: Melhor servido quente; guarde as sobras na geladeira por até 3 dias ou congele
+  porções cruas por até 2 meses.
+pairings: Sirva com café forte, goiabada ou acompanhando sopas e ensopados.
+source:
+  attribution: Adapted from Sam Tauil's family recipe
+  url: ''
+locale: pt-BR
+nutrition_per_serving:
+  calories_kcal: '359.9'
+  protein_g: '10.0'
+  fat_g: '22.3'
+  carbs_g: '30.1'
+locales: {}
+review:
+  submitted_at: null
+  reviewer_id: null
+  review_notes: []
+book:
+  included_in_editions: []
+created_at: '2026-06-12T00:00:00Z'
+updated_at: '2026-06-13T03:49:04Z'
+_etag: null

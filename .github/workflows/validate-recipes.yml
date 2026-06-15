@@ -1,0 +1,118 @@
+name: Validate recipes
+
+on:
+  pull_request:
+    paths:
+      - "recipes/**"
+      - "data/ingredients.yaml"
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  validate-recipes:
+    name: Validate changed recipes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+
+      - name: Identify changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            recipes/**/recipe.yaml
+            data/ingredients.yaml
+
+      - name: Validate changed recipes
+        id: validate
+        shell: bash
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          set -uo pipefail
+
+          body=$'<!-- hls-validate -->\n### HLS recipe validation\n\n'
+          append() {
+            body+="$1"$'\n'
+          }
+
+          recipe_files=()
+          ingredient_changed=false
+          for file in $CHANGED_FILES; do
+            if [[ "$file" == recipes/*/recipe.yaml ]]; then
+              recipe_files+=("$file")
+            elif [[ "$file" == "data/ingredients.yaml" ]]; then
+              ingredient_changed=true
+            fi
+          done
+
+          if [[ "$ingredient_changed" == true ]]; then
+            append "- ℹ️ \`data/ingredients.yaml\` changed, so all recipes were checked for ingredient coverage."
+            mapfile -t recipe_files < <(find recipes -mindepth 2 -maxdepth 2 -name recipe.yaml | sort)
+          fi
+
+          status=0
+          if ((${#recipe_files[@]} == 0)); then
+            append "- ✅ No recipe files changed."
+          fi
+
+          for recipe in "${recipe_files[@]}"; do
+            output="$(python -m hls.validate "$recipe" 2>&1)"
+            rc=$?
+            if [[ $rc -eq 0 && -z "$output" ]]; then
+              append "- ✅ \`$recipe\` passed."
+            elif [[ $rc -eq 0 ]]; then
+              append "- ⚠️ \`$recipe\` passed with warnings:"
+              append '```text'
+              append "$output"
+              append '```'
+            else
+              append "- ❌ \`$recipe\` failed:"
+              append '```text'
+              append "$output"
+              append '```'
+              status=1
+            fi
+          done
+
+          {
+            echo 'body<<HLS_VALIDATE_COMMENT'
+            printf '%s\n' "$body"
+            echo 'HLS_VALIDATE_COMMENT'
+          } >> "$GITHUB_OUTPUT"
+
+          exit "$status"
+
+      - name: Find validation comment
+        if: always()
+        id: find-comment
+        uses: peter-evans/find-comment@v3
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: github-actions[bot]
+          body-includes: "<!-- hls-validate -->"
+
+      - name: Create or update validation comment
+        if: always()
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: ${{ steps.validate.outputs.body }}
+          edit-mode: replace

@@ -1,0 +1,154 @@
+id: rcp_01KTZENJZR8K2AJZ4ZM4Z3TFPD
+status: approved
+title: Pão de Queijo
+slug: pao-de-queijo
+summary: Chewy Brazilian cheese breads with crisp edges, a stretchy center, and the
+  irresistible pull of warm Parmesan and mozzarella.
+contributor:
+  id: samueltauil
+  display_name: Sam Tauil
+classification:
+  cuisine: Brazilian
+  course: side
+  dietary_tags:
+  - gluten-free
+  - vegetarian
+  allergens:
+  - dairy
+  - eggs
+  keywords:
+  - gluten-free
+  - snack
+  - make-ahead
+  - Brazilian
+  difficulty: medium
+  occasion:
+  - snack
+yield:
+  servings: 8
+  notes: about 24 small rolls
+times:
+  prep_min: 20
+  cook_min: 25
+  rest_min: 10
+  total_min: 55
+ingredients:
+- name: tapioca starch
+  quantity:
+    metric:
+      value: '250'
+      unit: g
+    us:
+      value: '2'
+      unit: cup
+    as_entered: 2 cups tapioca starch
+  notes: ''
+  section: main
+- name: whole milk
+  quantity:
+    metric:
+      value: '240'
+      unit: ml
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 cup whole milk
+  notes: ''
+  section: main
+- name: vegetable oil
+  quantity:
+    metric:
+      value: '110'
+      unit: g
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 cup vegetable oil
+  notes: ''
+  section: main
+- name: large egg
+  quantity:
+    metric:
+      value: '100'
+      unit: g
+    us:
+      value: '2'
+      unit: count
+    as_entered: 2 large eggs
+  notes: room temperature
+  section: main
+- name: parmesan cheese
+  quantity:
+    metric:
+      value: '90'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 cup grated parmesan
+  notes: finely grated
+  section: main
+- name: mozzarella cheese
+  quantity:
+    metric:
+      value: '110'
+      unit: g
+    us:
+      value: '1'
+      unit: cup
+    as_entered: 1 cup shredded mozzarella
+  notes: low moisture, shredded
+  section: main
+- name: kosher salt
+  quantity:
+    metric:
+      value: '6'
+      unit: g
+    us:
+      value: '1'
+      unit: tsp
+    as_entered: 1 tsp kosher salt
+  notes: ''
+  section: main
+steps:
+- order: 1
+  text: Heat the milk, oil, and salt until steaming, then pour over the tapioca starch.
+- order: 2
+  text: Beat until the dough is smooth and cool enough to touch.
+- order: 3
+  text: Mix in eggs one at a time, then fold in both cheeses.
+- order: 4
+  text: Scoop onto a lined sheet pan and bake until puffed and golden.
+photos:
+- blob_url: photos/hero.jpg
+  caption: Final dish
+  is_hero: true
+equipment:
+- Stand mixer or sturdy bowl
+- Saucepan
+- Spoon or cookie scoop
+- Lined sheet pan
+tips: Use finely grated cheese so it melts evenly into the dough. If the dough feels
+  sticky, lightly oil the scoop or your hands.
+storage: Best warm; refrigerate leftovers up to 3 days or freeze unbaked scoops for
+  up to 2 months.
+pairings: Serve with strong coffee, guava paste, or alongside soups and stews.
+source:
+  attribution: Adapted from Sam Tauil's family recipe
+  url: ''
+locale: en
+nutrition_per_serving:
+  calories_kcal: '359.9'
+  protein_g: '10.0'
+  fat_g: '22.3'
+  carbs_g: '30.1'
+locales: {}
+review:
+  submitted_at: null
+  reviewer_id: null
+  review_notes: []
+book:
+  included_in_editions: []
+created_at: '2026-06-12T00:00:00Z'
+updated_at: '2026-06-13T03:49:04Z'
+_etag: null

@@ -1,0 +1,151 @@
+id: rcp_01KTZENJZR8K2AJZ4ZM4Z3TFPC
+status: approved
+title: Chicken Adobo
+slug: chicken-adobo
+summary: A bone-in Filipino braise where soy sauce, vinegar, garlic, and gentle heat
+  turn humble chicken into something deeply savory, tangy, and glossy.
+contributor:
+  id: samueltauil
+  display_name: Sam Tauil
+classification:
+  cuisine: Filipino
+  course: main
+  dietary_tags:
+  - dairy-free
+  allergens:
+  - soy
+  keywords:
+  - one-pot
+  - comfort food
+  - weeknight
+  - rice-friendly
+  difficulty: easy
+  occasion:
+  - weeknight
+yield:
+  servings: 4
+  notes: with rice
+times:
+  prep_min: 15
+  cook_min: 45
+  rest_min: 30
+  total_min: 90
+ingredients:
+- name: chicken thighs
+  quantity:
+    metric:
+      value: '900'
+      unit: g
+    us:
+      value: '2'
+      unit: lb
+    as_entered: 2 lb chicken thighs
+  notes: bone-in, skin-on
+  section: braise
+- name: soy sauce
+  quantity:
+    metric:
+      value: '120'
+      unit: ml
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 cup soy sauce
+  notes: ''
+  section: marinade
+- name: white vinegar
+  quantity:
+    metric:
+      value: '120'
+      unit: ml
+    us:
+      value: '0.5'
+      unit: cup
+    as_entered: 1/2 cup white vinegar
+  notes: ''
+  section: marinade
+- name: garlic
+  quantity:
+    metric:
+      value: '18'
+      unit: g
+    us:
+      value: '6'
+      unit: count
+    as_entered: 6 cloves garlic
+  notes: smashed
+  section: marinade
+- name: onion
+  quantity:
+    metric:
+      value: '110'
+      unit: g
+    us:
+      value: '1'
+      unit: count
+    as_entered: 1 small onion
+  notes: thinly sliced
+  section: marinade
+- name: brown sugar
+  quantity:
+    metric:
+      value: '12'
+      unit: g
+    us:
+      value: '1'
+      unit: tbsp
+    as_entered: 1 tbsp brown sugar
+  notes: ''
+  section: marinade
+- name: vegetable oil
+  quantity:
+    metric:
+      value: '14'
+      unit: g
+    us:
+      value: '1'
+      unit: tbsp
+    as_entered: 1 tbsp vegetable oil
+  notes: for browning
+  section: braise
+steps:
+- order: 1
+  text: Combine soy sauce, vinegar, garlic, onion, and brown sugar in a bowl.
+- order: 2
+  text: Marinate the chicken thighs in the sauce for at least 30 minutes.
+- order: 3
+  text: Brown chicken in oil, then add the marinade and simmer gently until tender.
+- order: 4
+  text: Reduce the sauce until glossy and spoon it over the chicken to serve.
+photos:
+- blob_url: photos/hero.jpg
+  caption: Final dish
+  is_hero: true
+equipment:
+- Heavy-bottomed pot or Dutch oven
+- Mixing bowl
+- Tongs
+tips: Cane vinegar is traditional, but cider or white vinegar works well. Let the
+  sauce reduce until it lightly coats a spoon before serving.
+storage: Keeps 4 days refrigerated; freezes up to 3 months. Reheat gently with a splash
+  of water.
+pairings: Serve with steamed jasmine rice and a crisp cucumber or green papaya pickle.
+source:
+  attribution: Adapted from Sam Tauil's family recipe
+  url: ''
+locale: en
+nutrition_per_serving:
+  calories_kcal: '554.5'
+  protein_g: '42.6'
+  fat_g: '37.3'
+  carbs_g: '8.8'
+locales: {}
+review:
+  submitted_at: null
+  reviewer_id: null
+  review_notes: []
+book:
+  included_in_editions: []
+created_at: '2026-06-12T00:00:00Z'
+updated_at: '2026-06-13T03:49:04Z'
+_etag: null

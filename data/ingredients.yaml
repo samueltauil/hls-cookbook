@@ -1,0 +1,723 @@
+ingredients:
+- canonical_name: all_purpose_flour
+  display_name: all-purpose flour
+  aliases:
+  - all-purpose flour
+  - all-purpose flours
+  - all purpose flour
+  - ap flour
+  - plain flour
+  - flour
+  density_g_per_ml: 0.53
+  nutrition_per_100g:
+    calories_kcal: 364
+    protein_g: 10.3
+    fat_g: 1
+    carbs_g: 76.3
+- canonical_name: bread_flour
+  display_name: bread flour
+  aliases:
+  - bread flour
+  - bread flours
+  - strong flour
+  density_g_per_ml: 0.55
+  nutrition_per_100g:
+    calories_kcal: 361
+    protein_g: 12
+    fat_g: 1.7
+    carbs_g: 72.5
+- canonical_name: whole_wheat_flour
+  display_name: whole wheat flour
+  aliases:
+  - whole wheat flour
+  - whole wheat flours
+  - wholemeal flour
+  density_g_per_ml: 0.51
+  nutrition_per_100g:
+    calories_kcal: 340
+    protein_g: 13.2
+    fat_g: 2.5
+    carbs_g: 72
+- canonical_name: granulated_sugar
+  display_name: granulated sugar
+  aliases:
+  - granulated sugar
+  - granulated sugars
+  - sugar
+  - white sugar
+  density_g_per_ml: 0.85
+  nutrition_per_100g:
+    calories_kcal: 387
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 100
+- canonical_name: brown_sugar
+  display_name: brown sugar
+  aliases:
+  - brown sugar
+  - brown sugars
+  - light brown sugar
+  density_g_per_ml: 0.72
+  nutrition_per_100g:
+    calories_kcal: 380
+    protein_g: 0.1
+    fat_g: 0
+    carbs_g: 98.1
+- canonical_name: powdered_sugar
+  display_name: powdered sugar
+  aliases:
+  - powdered sugar
+  - powdered sugars
+  - confectioners sugar
+  - icing sugar
+  density_g_per_ml: 0.56
+  nutrition_per_100g:
+    calories_kcal: 389
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 99.8
+- canonical_name: kosher_salt
+  display_name: kosher salt
+  aliases:
+  - kosher salt
+  - kosher salts
+  - salt
+  density_g_per_ml: 1.2
+  nutrition_per_100g:
+    calories_kcal: 0
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0
+- canonical_name: baking_powder
+  display_name: baking powder
+  aliases:
+  - baking powder
+  - baking powders
+  density_g_per_ml: 0.9
+  nutrition_per_100g:
+    calories_kcal: 53
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 28.1
+- canonical_name: baking_soda
+  display_name: baking soda
+  aliases:
+  - baking soda
+  - baking sodas
+  density_g_per_ml: 0.95
+  nutrition_per_100g:
+    calories_kcal: 0
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0
+- canonical_name: active_dry_yeast
+  display_name: active dry yeast
+  aliases:
+  - active dry yeast
+  - active dry yeasts
+  - yeast
+  density_g_per_ml: 0.6
+  nutrition_per_100g:
+    calories_kcal: 325
+    protein_g: 40.4
+    fat_g: 7.6
+    carbs_g: 41.2
+- canonical_name: olive_oil
+  display_name: olive oil
+  aliases:
+  - olive oil
+  - olive oils
+  - extra-virgin olive oil
+  - extra virgin olive oil
+  density_g_per_ml: 0.91
+  nutrition_per_100g:
+    calories_kcal: 884
+    protein_g: 0
+    fat_g: 100
+    carbs_g: 0
+- canonical_name: vegetable_oil
+  display_name: vegetable oil
+  aliases:
+  - vegetable oil
+  - vegetable oils
+  - neutral oil
+  - oil
+  density_g_per_ml: 0.92
+  nutrition_per_100g:
+    calories_kcal: 884
+    protein_g: 0
+    fat_g: 100
+    carbs_g: 0
+- canonical_name: unsalted_butter
+  display_name: unsalted butter
+  aliases:
+  - unsalted butter
+  - unsalted butters
+  - butter
+  density_g_per_ml: 0.96
+  nutrition_per_100g:
+    calories_kcal: 717
+    protein_g: 0.9
+    fat_g: 81.1
+    carbs_g: 0.1
+- canonical_name: whole_milk
+  display_name: whole milk
+  aliases:
+  - whole milk
+  - whole milks
+  - milk
+  density_g_per_ml: 1.03
+  nutrition_per_100g:
+    calories_kcal: 61
+    protein_g: 3.2
+    fat_g: 3.3
+    carbs_g: 4.8
+- canonical_name: heavy_cream
+  display_name: heavy cream
+  aliases:
+  - heavy cream
+  - heavy creams
+  - cream
+  density_g_per_ml: 0.99
+  nutrition_per_100g:
+    calories_kcal: 340
+    protein_g: 2.8
+    fat_g: 36.1
+    carbs_g: 2.8
+- canonical_name: large_egg
+  display_name: large egg
+  aliases:
+  - large egg
+  - large eggs
+  - egg
+  - eggs
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 143
+    protein_g: 12.6
+    fat_g: 9.5
+    carbs_g: 0.7
+- canonical_name: egg_white
+  display_name: egg white
+  aliases:
+  - egg white
+  - egg whites
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 52
+    protein_g: 10.9
+    fat_g: 0.2
+    carbs_g: 0.7
+- canonical_name: parmesan_cheese
+  display_name: parmesan cheese
+  aliases:
+  - parmesan cheese
+  - parmesan cheeses
+  - parmesan
+  - grated parmesan
+  - parmigiano reggiano
+  density_g_per_ml: 0.38
+  nutrition_per_100g:
+    calories_kcal: 431
+    protein_g: 38.5
+    fat_g: 28.6
+    carbs_g: 4.1
+- canonical_name: cheddar_cheese
+  display_name: cheddar cheese
+  aliases:
+  - cheddar cheese
+  - cheddar cheeses
+  - cheddar
+  density_g_per_ml: 0.34
+  nutrition_per_100g:
+    calories_kcal: 403
+    protein_g: 24.9
+    fat_g: 33.1
+    carbs_g: 1.3
+- canonical_name: mozzarella_cheese
+  display_name: mozzarella cheese
+  aliases:
+  - mozzarella cheese
+  - mozzarella cheeses
+  - mozzarella
+  density_g_per_ml: 0.35
+  nutrition_per_100g:
+    calories_kcal: 300
+    protein_g: 22.2
+    fat_g: 22.4
+    carbs_g: 2.2
+- canonical_name: cream_cheese
+  display_name: cream cheese
+  aliases:
+  - cream cheese
+  - cream cheeses
+  - cream cheese spread
+  density_g_per_ml: 0.99
+  nutrition_per_100g:
+    calories_kcal: 342
+    protein_g: 5.9
+    fat_g: 34.2
+    carbs_g: 4.1
+- canonical_name: chicken_thigh
+  display_name: chicken thigh
+  aliases:
+  - chicken thigh
+  - chicken thighs
+  - bone-in chicken thighs
+  - boneless chicken thighs
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 209
+    protein_g: 17.4
+    fat_g: 14.9
+    carbs_g: 0
+- canonical_name: chicken_breast
+  display_name: chicken breast
+  aliases:
+  - chicken breast
+  - chicken breasts
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 165
+    protein_g: 31
+    fat_g: 3.6
+    carbs_g: 0
+- canonical_name: ground_beef
+  display_name: ground beef
+  aliases:
+  - ground beef
+  - ground beefs
+  - beef mince
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 254
+    protein_g: 17.2
+    fat_g: 20
+    carbs_g: 0
+- canonical_name: pork_shoulder
+  display_name: pork shoulder
+  aliases:
+  - pork shoulder
+  - pork shoulders
+  - pork butt
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 250
+    protein_g: 17
+    fat_g: 20
+    carbs_g: 0
+- canonical_name: bacon
+  display_name: bacon
+  aliases:
+  - bacons
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 541
+    protein_g: 37
+    fat_g: 42
+    carbs_g: 1.4
+- canonical_name: salmon_fillet
+  display_name: salmon fillet
+  aliases:
+  - salmon fillet
+  - salmon fillets
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 208
+    protein_g: 20.4
+    fat_g: 13.4
+    carbs_g: 0
+- canonical_name: shrimp
+  display_name: shrimp
+  aliases:
+  - shrimps
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 99
+    protein_g: 24
+    fat_g: 0.3
+    carbs_g: 0.2
+- canonical_name: tofu
+  display_name: tofu
+  aliases:
+  - tofus
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 76
+    protein_g: 8.1
+    fat_g: 4.8
+    carbs_g: 1.9
+- canonical_name: black_beans
+  display_name: black beans
+  aliases:
+  - black beans
+  - black bean
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 132
+    protein_g: 8.9
+    fat_g: 0.5
+    carbs_g: 23.7
+- canonical_name: chickpeas
+  display_name: chickpeas
+  aliases:
+  - garbanzo beans
+  density_g_per_ml: null
+  nutrition_per_100g:
+    calories_kcal: 164
+    protein_g: 8.9
+    fat_g: 2.6
+    carbs_g: 27.4
+- canonical_name: white_rice
+  display_name: white rice
+  aliases:
+  - white rice
+  - white rices
+  - rice
+  density_g_per_ml: 0.85
+  nutrition_per_100g:
+    calories_kcal: 365
+    protein_g: 7.1
+    fat_g: 0.7
+    carbs_g: 80
+- canonical_name: brown_rice
+  display_name: brown rice
+  aliases:
+  - brown rice
+  - brown rices
+  - whole grain rice
+  density_g_per_ml: 0.83
+  nutrition_per_100g:
+    calories_kcal: 370
+    protein_g: 7.9
+    fat_g: 2.9
+    carbs_g: 77.2
+- canonical_name: pasta
+  display_name: pasta
+  aliases:
+  - pastas
+  density_g_per_ml: 0.5
+  nutrition_per_100g:
+    calories_kcal: 371
+    protein_g: 13
+    fat_g: 1.5
+    carbs_g: 75
+- canonical_name: tapioca_starch
+  display_name: tapioca starch
+  aliases:
+  - tapioca starch
+  - tapioca starchs
+  - tapioca flour
+  - cassava starch
+  - polvilho doce
+  density_g_per_ml: 0.63
+  nutrition_per_100g:
+    calories_kcal: 358
+    protein_g: 0.2
+    fat_g: 0
+    carbs_g: 88.7
+- canonical_name: bread_crumbs
+  display_name: bread crumbs
+  aliases:
+  - bread crumbs
+  - breadcrumbs
+  - panko
+  density_g_per_ml: 0.45
+  nutrition_per_100g:
+    calories_kcal: 395
+    protein_g: 13.4
+    fat_g: 5.3
+    carbs_g: 72
+- canonical_name: tomato
+  display_name: tomato
+  aliases:
+  - tomatos
+  - tomatoes
+  density_g_per_ml: 0.95
+  nutrition_per_100g:
+    calories_kcal: 18
+    protein_g: 0.9
+    fat_g: 0.2
+    carbs_g: 3.9
+- canonical_name: onion
+  display_name: onion
+  aliases:
+  - onions
+  - yellow onion
+  - yellow onions
+  density_g_per_ml: 0.58
+  nutrition_per_100g:
+    calories_kcal: 40
+    protein_g: 1.1
+    fat_g: 0.1
+    carbs_g: 9.3
+- canonical_name: garlic
+  display_name: garlic
+  aliases:
+  - garlics
+  - garlic cloves
+  - clove garlic
+  - cloves garlic
+  density_g_per_ml: 0.56
+  nutrition_per_100g:
+    calories_kcal: 149
+    protein_g: 6.4
+    fat_g: 0.5
+    carbs_g: 33.1
+- canonical_name: carrot
+  display_name: carrot
+  aliases:
+  - carrots
+  density_g_per_ml: 0.64
+  nutrition_per_100g:
+    calories_kcal: 41
+    protein_g: 0.9
+    fat_g: 0.2
+    carbs_g: 9.6
+- canonical_name: celery
+  display_name: celery
+  aliases:
+  - celerys
+  density_g_per_ml: 0.61
+  nutrition_per_100g:
+    calories_kcal: 16
+    protein_g: 0.7
+    fat_g: 0.2
+    carbs_g: 3
+- canonical_name: potato
+  display_name: potato
+  aliases:
+  - potatos
+  - potatoes
+  density_g_per_ml: 0.7
+  nutrition_per_100g:
+    calories_kcal: 77
+    protein_g: 2
+    fat_g: 0.1
+    carbs_g: 17.5
+- canonical_name: sweet_potato
+  display_name: sweet potato
+  aliases:
+  - sweet potato
+  - sweet potatos
+  - sweet potatoes
+  density_g_per_ml: 0.65
+  nutrition_per_100g:
+    calories_kcal: 86
+    protein_g: 1.6
+    fat_g: 0.1
+    carbs_g: 20.1
+- canonical_name: broccoli
+  display_name: broccoli
+  aliases:
+  - broccolis
+  density_g_per_ml: 0.35
+  nutrition_per_100g:
+    calories_kcal: 34
+    protein_g: 2.8
+    fat_g: 0.4
+    carbs_g: 6.6
+- canonical_name: spinach
+  display_name: spinach
+  aliases:
+  - spinachs
+  density_g_per_ml: 0.3
+  nutrition_per_100g:
+    calories_kcal: 23
+    protein_g: 2.9
+    fat_g: 0.4
+    carbs_g: 3.6
+- canonical_name: bell_pepper
+  display_name: bell pepper
+  aliases:
+  - bell pepper
+  - bell peppers
+  density_g_per_ml: 0.55
+  nutrition_per_100g:
+    calories_kcal: 31
+    protein_g: 1
+    fat_g: 0.3
+    carbs_g: 6
+- canonical_name: mushroom
+  display_name: mushroom
+  aliases:
+  - mushrooms
+  density_g_per_ml: 0.4
+  nutrition_per_100g:
+    calories_kcal: 22
+    protein_g: 3.1
+    fat_g: 0.3
+    carbs_g: 3.3
+- canonical_name: apple
+  display_name: apple
+  aliases:
+  - apples
+  density_g_per_ml: 0.6
+  nutrition_per_100g:
+    calories_kcal: 52
+    protein_g: 0.3
+    fat_g: 0.2
+    carbs_g: 13.8
+- canonical_name: banana
+  display_name: banana
+  aliases:
+  - bananas
+  density_g_per_ml: 0.94
+  nutrition_per_100g:
+    calories_kcal: 89
+    protein_g: 1.1
+    fat_g: 0.3
+    carbs_g: 22.8
+- canonical_name: lemon_juice
+  display_name: lemon juice
+  aliases:
+  - lemon juice
+  - lemon juices
+  - fresh lemon juice
+  density_g_per_ml: 1.03
+  nutrition_per_100g:
+    calories_kcal: 22
+    protein_g: 0.4
+    fat_g: 0.2
+    carbs_g: 6.9
+- canonical_name: lime_juice
+  display_name: lime juice
+  aliases:
+  - lime juice
+  - lime juices
+  - fresh lime juice
+  density_g_per_ml: 1.03
+  nutrition_per_100g:
+    calories_kcal: 25
+    protein_g: 0.4
+    fat_g: 0.1
+    carbs_g: 8.4
+- canonical_name: soy_sauce
+  display_name: soy sauce
+  aliases:
+  - soy sauce
+  - soy sauces
+  - shoyu
+  density_g_per_ml: 1.18
+  nutrition_per_100g:
+    calories_kcal: 53
+    protein_g: 8.1
+    fat_g: 0.6
+    carbs_g: 4.9
+- canonical_name: white_vinegar
+  display_name: white vinegar
+  aliases:
+  - white vinegar
+  - white vinegars
+  - distilled white vinegar
+  - vinegar
+  density_g_per_ml: 1.01
+  nutrition_per_100g:
+    calories_kcal: 18
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0.1
+- canonical_name: red_wine_vinegar
+  display_name: red wine vinegar
+  aliases:
+  - red wine vinegar
+  - red wine vinegars
+  - wine vinegar
+  density_g_per_ml: 1.01
+  nutrition_per_100g:
+    calories_kcal: 19
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0.3
+- canonical_name: dijon_mustard
+  display_name: dijon mustard
+  aliases:
+  - dijon mustard
+  - dijon mustards
+  - dijon
+  - mustard
+  density_g_per_ml: 1.05
+  nutrition_per_100g:
+    calories_kcal: 66
+    protein_g: 4.4
+    fat_g: 4
+    carbs_g: 5.8
+- canonical_name: honey
+  display_name: honey
+  aliases:
+  - honeys
+  density_g_per_ml: 1.42
+  nutrition_per_100g:
+    calories_kcal: 304
+    protein_g: 0.3
+    fat_g: 0
+    carbs_g: 82.4
+- canonical_name: maple_syrup
+  display_name: maple syrup
+  aliases:
+  - maple syrup
+  - maple syrups
+  - pure maple syrup
+  density_g_per_ml: 1.33
+  nutrition_per_100g:
+    calories_kcal: 260
+    protein_g: 0
+    fat_g: 0.1
+    carbs_g: 67
+- canonical_name: rolled_oats
+  display_name: rolled oats
+  aliases:
+  - rolled oats
+  - old-fashioned oats
+  - oats
+  density_g_per_ml: 0.34
+  nutrition_per_100g:
+    calories_kcal: 389
+    protein_g: 16.9
+    fat_g: 6.9
+    carbs_g: 66.3
+- canonical_name: cornmeal
+  display_name: cornmeal
+  aliases:
+  - cornmeals
+  density_g_per_ml: 0.6
+  nutrition_per_100g:
+    calories_kcal: 370
+    protein_g: 7.1
+    fat_g: 1.8
+    carbs_g: 79.4
+- canonical_name: cocoa_powder
+  display_name: cocoa powder
+  aliases:
+  - cocoa powder
+  - cocoa powders
+  - unsweetened cocoa powder
+  - dark cocoa powder
+  density_g_per_ml: 0.5
+  nutrition_per_100g:
+    calories_kcal: 228
+    protein_g: 19.6
+    fat_g: 13.7
+    carbs_g: 57.9
+- canonical_name: vanilla_extract
+  display_name: vanilla extract
+  aliases:
+  - vanilla extract
+  - vanilla extracts
+  - vanilla
+  density_g_per_ml: 0.88
+  nutrition_per_100g:
+    calories_kcal: 288
+    protein_g: 0.1
+    fat_g: 0.1
+    carbs_g: 12.7
+- canonical_name: water
+  display_name: water
+  aliases:
+  - water
+  density_g_per_ml: 1
+  nutrition_per_100g:
+    calories_kcal: 0
+    protein_g: 0
+    fat_g: 0
+    carbs_g: 0

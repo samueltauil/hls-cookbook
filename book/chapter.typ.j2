@@ -1,0 +1,43 @@
+#import "../../recipe.typ": recipe
+
+#recipe(
+  title: [{{ recipe.title | typst_escape }}],
+  hero-photo: {{ recipe.hero_photo | typst_path }},
+  contributor: [{{ recipe.contributor | typst_escape }}],
+  cuisine: [{{ recipe.cuisine | typst_escape }}],
+  course: [{{ recipe.course_label | typst_escape }}],
+  dietary-tags: [{{ recipe.dietary_tags | typst_escape }}],
+  prep-time: [{{ recipe.prep_time | typst_escape }}],
+  cook-time: [{{ recipe.cook_time | typst_escape }}],
+  total-time: [{{ recipe.total_time | typst_escape }}],
+  servings: [{{ recipe.servings | typst_escape }}],
+  summary: [{{ recipe.summary | typst_escape }}],
+  ingredient-sections: (
+{% for section in recipe.ingredient_sections %}
+    (
+      title: {{ section["title"] | typst_content_or_none }},
+      items: (
+{% for item in section["items"] %}
+        (
+          quantity: {{ item["quantity"] | typst_content_or_none }},
+          name: [{{ item["name"] | typst_escape }}],
+          notes: {{ item["notes"] | typst_content_or_none }},
+        ),
+{% endfor %}
+      ),
+    ),
+{% endfor %}
+  ),
+  steps: (
+{% for step in recipe.steps %}
+    [{{ step | typst_escape }}],
+{% endfor %}
+  ),
+  nutrition-complete: {{ "true" if recipe.nutrition_complete else "false" }},
+  nutrition: (
+    calories: [{{ recipe.nutrition.calories | typst_escape }}],
+    protein: [{{ recipe.nutrition.protein | typst_escape }}],
+    fat: [{{ recipe.nutrition.fat | typst_escape }}],
+    carbs: [{{ recipe.nutrition.carbs | typst_escape }}],
+  ),
+)

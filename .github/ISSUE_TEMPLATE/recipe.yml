@@ -1,0 +1,303 @@
+name: Submit a recipe
+description: Share a recipe for the HLS Cookbook.
+title: "[recipe] "
+labels: [recipe-submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Submit a recipe to the HLS Cookbook
+        Fill out as much as you can. The fields below feed an automated agent that opens a pull request with your normalized recipe. Maintainers will review and merge it into the next printed edition.
+
+        Tip: write naturally. Quantities like `2 lb chicken thighs, bone-in` are parsed automatically.
+  - type: markdown
+    attributes:
+      value: |
+        ## Recipe identity
+  - type: input
+    id: title
+    attributes:
+      label: Recipe name
+      description: What should this recipe be called?
+      placeholder: Chicken Adobo
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: 1-3 sentences shown above the recipe in the book. Distinct from longer notes/tips below.
+      placeholder: Filipino braise of soy, vinegar, garlic, and bay leaves.
+    validations:
+      required: false
+  - type: input
+    id: contributor_handle
+    attributes:
+      label: GitHub handle
+      description: Enter your GitHub username. Auto-prefill is not supported.
+      placeholder: octocat
+    validations:
+      required: true
+  - type: input
+    id: contributor_display_name
+    attributes:
+      label: Contributor display name
+      description: Optional display name for the cookbook.
+      placeholder: Octo Cat
+    validations:
+      required: false
+  - type: input
+    id: source_attribution
+    attributes:
+      label: Source / credit
+      placeholder: Adapted from Lola Maria's adobo
+    validations:
+      required: false
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      placeholder: https://example.com/original-recipe
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Classification
+  - type: dropdown
+    id: cuisine
+    attributes:
+      label: Cuisine
+      options:
+        - Filipino
+        - Brazilian
+        - American
+        - Italian
+        - Mexican
+        - Japanese
+        - Indian
+        - French
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: course
+    attributes:
+      label: Course
+      options:
+        - appetizer
+        - main
+        - side
+        - dessert
+        - drink
+        - other
+    validations:
+      required: true
+  - type: input
+    id: dietary_tags
+    attributes:
+      label: Dietary tags
+      description: Optional comma-separated dietary tags.
+      placeholder: dairy-free, gluten-free
+    validations:
+      required: false
+  - type: checkboxes
+    id: allergens
+    attributes:
+      label: Allergens
+      options:
+        - label: gluten
+        - label: dairy
+        - label: eggs
+        - label: nuts
+        - label: soy
+        - label: shellfish
+        - label: sesame
+        - label: fish
+  - type: input
+    id: keywords
+    attributes:
+      label: Keywords / tags
+      placeholder: comfort food, one-pot, freezer-friendly
+    validations:
+      required: false
+  - type: dropdown
+    id: occasion
+    attributes:
+      label: Occasion
+      multiple: true
+      options:
+        - weeknight
+        - weekend
+        - holiday
+        - batch-cook
+        - party
+        - brunch
+        - picnic
+        - kids-friendly
+        - date-night
+    validations:
+      required: false
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - easy
+        - medium
+        - hard
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Yield & time
+  - type: input
+    id: yield_servings
+    attributes:
+      label: Yield servings
+      description: Number of servings the recipe makes.
+      placeholder: "4"
+    validations:
+      required: true
+  - type: input
+    id: yield_notes
+    attributes:
+      label: Yield notes
+      placeholder: Halve for snack portions; doubles cleanly
+    validations:
+      required: false
+  - type: input
+    id: prep_min
+    attributes:
+      label: Prep minutes
+      description: Optional prep time in minutes.
+      placeholder: "15"
+    validations:
+      required: false
+  - type: input
+    id: cook_min
+    attributes:
+      label: Cook minutes
+      description: Optional cook time in minutes.
+      placeholder: "45"
+    validations:
+      required: false
+  - type: input
+    id: rest_min
+    attributes:
+      label: Rest / marinade minutes
+      placeholder: "30"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Ingredients & steps
+  - type: textarea
+    id: ingredients
+    attributes:
+      label: Ingredients
+      description: Enter one ingredient per line. Use `## Section` (e.g., `## Marinade`, `## Glaze`) to group ingredients into subsections. Trailing notes after a comma (e.g., `2 lb chicken thighs, bone-in`) are captured separately.
+      placeholder: |
+        ## Marinade
+        2 lb chicken thighs, bone-in
+        1 cup soy sauce
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: Enter one numbered step per paragraph.
+      placeholder: |
+        1. Brown chicken.
+
+        2. Simmer until tender.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Extras
+  - type: textarea
+    id: equipment
+    attributes:
+      label: Equipment
+      description: One item per line OR comma-separated.
+      placeholder: |
+        Dutch oven
+        Whisk
+        Digital scale
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional longer recipe notes.
+    validations:
+      required: false
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips & substitutions
+      placeholder: Swap rice flour for gluten-free; use cane vinegar if available.
+    validations:
+      required: false
+  - type: textarea
+    id: storage
+    attributes:
+      label: Storage & make-ahead
+      placeholder: Keeps 4 days refrigerated. Reheat over low heat.
+    validations:
+      required: false
+  - type: textarea
+    id: pairings
+    attributes:
+      label: Pairings & serving suggestions
+      placeholder: Steamed jasmine rice and pickled vegetables.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Photos & locale
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos
+      description: Paste photo URLs one per line, or attach images to this field.
+      placeholder: |
+        https://example.com/photo.jpg
+    validations:
+      required: false
+  - type: input
+    id: hero_caption
+    attributes:
+      label: Hero photo caption
+      placeholder: Adobo over jasmine rice
+    validations:
+      required: false
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Recipe language
+      description: If pt-BR, the recipe will be filed at `recipes/<slug>/recipe.pt-BR.yaml`.
+      options:
+        - en
+        - pt-BR
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Submitter agreement
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Submitter agreement
+      options:
+        - label: I confirm this recipe is my original work, or I have properly credited the source above. I agree to release it under this repository's MIT license.
+          required: true
