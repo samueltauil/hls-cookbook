@@ -8,7 +8,7 @@ on:
   roles: all
 permissions:
   contents: read
-engine: claude
+engine: copilot
 network: defaults
 env:
   ISSUE_JSON: ${{ github.workspace }}/.runtime/issue.json
